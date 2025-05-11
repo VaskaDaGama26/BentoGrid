@@ -1,0 +1,18 @@
+@import "tailwindcss";
+@import "./fonts.css";
+
+:root {
+  --purple100: hsl(254, 88%, 90%);
+  --purple500: hsl(256, 67%, 59%);
+
+  --yellow100: hsl(29, 93%, 94%);
+  --yellow500: hsl(39, 100%, 71%);
+
+  --white: hsl(0, 0%, 100%);
+  --black: hsl(0, 0%, 7%);
+}
+
+html {
+  font-family: "DM Sans", sans-serif;
+  background-color: #fafafa;
+}
