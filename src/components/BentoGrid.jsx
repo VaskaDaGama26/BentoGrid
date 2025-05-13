@@ -5,6 +5,9 @@ import createPost from "../imgs/illustration-create-post.webp";
 import chart from "../imgs/illustration-schedule-posts.webp";
 import platforms from "../imgs/illustration-multiple-platforms.webp";
 import schedule from "../imgs/illustration-consistent-schedule.webp";
+import ai from "../imgs/illustration-ai-content.webp";
+import audience from "../imgs/illustration-audience-growth.webp";
+import followers from "../imgs/illustration-grow-followers.webp";
 
 const BentoGrid = () => {
   return (
@@ -86,11 +89,27 @@ const BentoGrid = () => {
           </div>
         </div>
       </div>
-      <div className="bg-(--yellow500) rounded-xl w-full row-span-3">Write your content using AI.</div>
-      <div className="bg-(--white) rounded-xl row-span-2">
-        <span>&#62;56%</span> faster audience growth
+      {/* YELLOW BOTTOM AI */}
+      <div className="bg-(--yellow500) p-6 flex flex-col gap-12 items-center rounded-xl w-full row-span-4">
+        <h1 className="dm-sans-500 text-[40px] tracking-tighter leading-9">
+          Write your content <br />
+          using AI.
+        </h1>
+        <img className="w-full" src={ai} alt="AI" />
       </div>
-      <div className="bg-(--purple500) w-full row-span-2 rounded-xl col-span-2">Grow followers with non-stop content.</div>
+      {/* WHITE PERCENTAGE */}
+      <div className="bg-(--white) flex flex-col justify-between p-6 w-full rounded-xl row-span-3">
+        <div className="flex flex-col gap-2">
+          <h1 className="dm-sans-500 text-6xl">&#62;56%</h1>
+          <p className="dm-sans-500 text-[18px]">faster audience growth</p>
+        </div>
+        <img className="max-w-[180px]" src={audience} alt="Audience" />
+      </div>
+      {/* PURPLE FOLLOWERS */}
+      <div className="bg-(--purple500) p-6 flex flex-row w-full items-center justify-between gap-6 row-span-3 rounded-xl col-span-2">
+        <img className="max-w-[220px]" src={followers} alt="Followers" />
+        <h1 className="dm-sans-500 tracking-tight leading-9 text-(--white) text-[44px]">Grow followers with non-stop content.</h1>
+      </div>
     </div>
   );
 };
