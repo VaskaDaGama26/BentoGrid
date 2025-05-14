@@ -1,10 +1,10 @@
 {
-  "stars": "/imgs/illustration-five-stars.webp",
-  "createPost": "/imgs/illustration-create-post.webp",
-  "chart": "/imgs/illustration-schedule-posts.webp",
-  "platforms": "/imgs/illustration-multiple-platforms.webp",
-  "schedule": "/imgs/illustration-consistent-schedule.webp",
-  "ai": "/imgs/illustration-ai-content.webp",
-  "audience": "/imgs/illustration-audience-growth.webp",
-  "followers": "/imgs/illustration-grow-followers.webp"
+  "stars": "/BentoGrid/imgs/illustration-five-stars.webp",
+  "createPost": "/BentoGrid/imgs/illustration-create-post.webp",
+  "chart": "/BentoGrid/imgs/illustration-schedule-posts.webp",
+  "platforms": "/BentoGrid/imgs/illustration-multiple-platforms.webp",
+  "schedule": "/BentoGrid/imgs/illustration-consistent-schedule.webp",
+  "ai": "/BentoGrid/imgs/illustration-ai-content.webp",
+  "audience": "/BentoGrid/imgs/illustration-audience-growth.webp",
+  "followers": "/BentoGrid/imgs/illustration-grow-followers.webp"
 }
